@@ -8,9 +8,6 @@ First, download map file of Hong Kong from [OpenStreetMap](https://www.openstree
 Then, follow the intrustion in [pt2matsim](https://github.com/matsim-org/pt2matsim) to create a network. 
 If public transport is needed to be included in the model, it also can use to create multimodel network and transit schedule that used for simlulating public transport in MATSim.
 
-  upload pt nk and sche
-
-
 ### plan: tcs
 process + script
 
