@@ -22,7 +22,7 @@ Then, use gis to mark buildings to their District Council and District Council C
 To be more precise, you can seperate residential buildings and others for the selection of the coordinates of home and work.
 
 3) Generate inter and inner district commuting work trips
-Create a inner.csv and a inter.csv from the communting data, similar to the csv files in the prepera folder with the use of [Table A.2 Daily Person Trip Productions and Attractions by Broad District and Trip Purpose](https://www.td.gov.hk/filemanager/en/content_4652/tcs2011app_eng.pdf) by tcs 2011.
+Create a inner.csv and a inter.csv from the communting data, similar to the csv files in the "forplan" folder with the use of [Table A.2 Daily Person Trip Productions and Attractions by Broad District and Trip Purpose](https://www.td.gov.hk/filemanager/en/content_4652/tcs2011app_eng.pdf) by tcs 2011.
 
 Then, set the home end time, work end time. It was set as the same home end time and work end time for every plan. I redistributed them according to the Figure 3.3 Hourly Profiles of Mechanised Trips Travel Characteristics Survey 2011 final report by python script uploaded as **main.py**. 
 
