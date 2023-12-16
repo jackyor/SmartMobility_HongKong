@@ -12,7 +12,11 @@ In this base case scenario, we assume that passengers exclusively choose private
 - runtime
 
 ## output
-The data for analysising performance of drt are in the folder of result, including customer stats, detailed vehicle stats and vehicle stats. The findings are in the findings folder that includes figures of analysised output stats generated from the model. The general performance of ridepooling vs. exclusive ride (e.g. taxi) in terms of VKT is showed below. <br/>
+The data for analysising performance of drt are in the folder of result, including customer stats, detailed vehicle stats and vehicle stats. The findings are in the findings.md that includes figures of analysised output stats generated from the model and in-depth analysis of two research questions: <br/>
+RQ1) In what ways does ride-pooling surpass exclusive rides in terms of transport efficiency in Hong Kong? <br/>
+RQ2) What is the optimal combination of vehicle capacity and fleet size for efficient ridepooling in Hong Kong? <br/>
+
+The general performance of ridepooling vs. exclusive ride (e.g. taxi) in terms of VKT is showed below. <br/>
 <img width="661" alt="Screenshot 2023-12-16 at 6 45 03 PM" src="https://github.com/jackyor/matsim_HongKong/assets/87265896/67b2097d-eb11-4c71-a389-8249dd0661e3">
 
 
