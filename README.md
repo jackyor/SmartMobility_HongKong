@@ -11,6 +11,16 @@ Three scenarios are considered in this study:
 
 The simulations are run on the Amazon Elastic Compute Cloud, with the system configuration detailed in Appendix I. The study aims to understand the impact and efficiency of ridepooling as a replacement for traditional taxi commutes.
 
+## Findings
+The performance analysis data for Demand Responsive Transport (DRT) includes customer statistics, detailed vehicle statistics, and overall vehicle statistics. [findings.md](https://github.com/jackyor/matsim_HongKong/blob/main/findings.md) contains figures derived from the model’s output statistics and a comprehensive analysis of two research questions:
+
+RQ1: How does ride-pooling outperform exclusive rides in terms of transport efficiency in Hong Kong?
+
+RQ2: What is the ideal mix of vehicle capacity and fleet size for efficient ridepooling in Hong Kong?
+
+A comparison of the general performance of ridepooling versus exclusive rides (e.g., taxi) in terms of Vehicle Kilometers Traveled (VKT) is also provided.
+
+<img width="661" alt="Screenshot 2023-12-16 at 6 45 03 PM" src="https://github.com/jackyor/matsim_HongKong/assets/87265896/67b2097d-eb11-4c71-a389-8249dd0661e3">
 
 ## Run
 This model was executed on an Amazon EC2 instance. The instance type was c7g.8xlarge, equipped with 32 CPU cores and 64GB of memory. The version of the Java Virtual Machine (JVM) used was 19.0.2.
@@ -25,18 +35,6 @@ java -jar -Xmx64g matsim-code-examples-master-SNAPSHOT.jar scenarios/opt/stop2s.
 java -jar -Xmx[Max memory] matsim-code-examples-master-SNAPSHOT.jar [path to config file]
 ```
 For your information, a full simulation consisting of 16 iterations took approximately 7 hours to complete with the aforementioned configuration.
-
-## Output
-The performance analysis data for Demand Responsive Transport (DRT) includes customer statistics, detailed vehicle statistics, and overall vehicle statistics. [findings.md](https://github.com/jackyor/matsim_HongKong/blob/main/findings.md) contains figures derived from the model’s output statistics and a comprehensive analysis of two research questions:
-
-RQ1: How does ride-pooling outperform exclusive rides in terms of transport efficiency in Hong Kong?
-
-RQ2: What is the ideal mix of vehicle capacity and fleet size for efficient ridepooling in Hong Kong?
-
-A comparison of the general performance of ridepooling versus exclusive rides (e.g., taxi) in terms of Vehicle Kilometers Traveled (VKT) is also provided.
-
-<img width="661" alt="Screenshot 2023-12-16 at 6 45 03 PM" src="https://github.com/jackyor/matsim_HongKong/assets/87265896/67b2097d-eb11-4c71-a389-8249dd0661e3">
-
 
 ## Input Data Preperation
 ### Network
