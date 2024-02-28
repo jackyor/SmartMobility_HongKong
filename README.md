@@ -5,9 +5,10 @@ This research focuses on a scenario where daily commuting trips by taxi are repl
 
 Three scenarios are considered in this study:
 
-Base case scenario: Passengers exclusively choose private rides. The results from this scenario serve as a benchmark for comparison.
-Stop-based scenario: Ridepooling routes are based on predefined stops (virtual taxi stands extracted from OpenStreetMap). There are a total of 331 predefined stops in Hong Kong.
-Door-to-door scenario: Ridepooling routes are based on passengers’ requests. Passengers are picked up and dropped off at their requested locations.
+1. Base case scenario: Passengers exclusively choose private rides. The results from this scenario serve as a benchmark for comparison.
+2. Stop-based scenario: Ridepooling routes are based on predefined stops (virtual taxi stands extracted from OpenStreetMap). There are a total of 331 predefined stops in Hong Kong.
+3. Door-to-door scenario: Ridepooling routes are based on passengers’ requests. Passengers are picked up and dropped off at their requested locations.
+
 The simulations are run on the Amazon Elastic Compute Cloud, with the system configuration detailed in Appendix I. The study aims to understand the impact and efficiency of ridepooling as a replacement for traditional taxi commutes.
 
 
